@@ -1,0 +1,6 @@
+#Make new directories based on file date
+for i in $(find ~/Documents/Decodon/Seed_counting/Seed_photos/unsorted -mtime +1); do DIRECTORY="$(echo "$i" | xargs python -c "import os,time,sys; t= time.ctime(os.path.getmtime(sys.argv[1])).split() ; print str(t[1]+ '_'+ t[2]+ '_' + t[4])")";
+if [ ! -d "$DIRECTORY" ]; then mkdir $DIRECTORY; fi; done
+
+#Move all files into correct directory
+for i in $(find ~/Documents/Decodon/Seed_counting/Seed_photos/unsorted -mtime +1); do DIRECTORY="$(echo "$i" | xargs python -c "import os,time,sys; t= time.ctime(os.path.getmtime(sys.argv[1])).split() ; print str(t[1]+ '_'+ t[2]+ '_' + t[4])")"; mv $i $(basename $DIRECTORY)/; done

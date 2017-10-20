@@ -1,0 +1,27 @@
+1. REMOVE 3 PHOTOS ON Jan 5 2016. MPB Hand counted these.
+
+seed_count_June8_night_2016_no_dec4.txt
+
+1. Removed photos from the following folders because I already had a hand count. Dec 4 removed using :
+Dec_4_2015 : grep -v 'Dec 4 2015' seed_count_June8_night_2016.txt > seed_count_June8_night_2016_no_dec4.txt
+Jan_5_2016 : removed using search replace?
+Mar_3_2016: removed using search replace?
+Nov_25_2015: removed using search replace?
+Nov_27_2015: removed using search replace?
+
+2. These photos were removed because MPB had hand counted these envelopes
+grep -v 'IMG_8197.JPG' seed_count_June8_night_2016_no_dec4.txt > seed_count_June8_night_2016_no_bad_photo.txt 
+grep -v 'IMG_8380.JPG' seed_count_June8_night_2016_no_bad_photo.txt > seed_count_June8_night_2016_no_bad_photo2.txt
+grep -v 'Feb 10\|Apr 13' seed_count_June8_night_2016_no_bad_photo2.txt > seed_count_June8_night_2016_no_bad_photo3.txt
+
+
+cut -d "," -f1,2,3,4 seed_count_June8_night_2016_no_bad_photo3.txt >seed_count_June8_night_2016_no_bad_photo2_no_areas.txt
+
+deleted intermediate files:
+seed_count_June8_night_2016_no_dec4_no_areas.txt
+seed_count_June8_night_2016_no_bad_photo2.txt
+seed_count_June8_night_2016.txt
+seed_count_June8_night_2016.txt
+
+Renamed:
+seed_count_June8_night_2016_no_bad_photo2_no_areas.txt > seed_count_June8_night_2016_no_bad_photo3_no_areas.txt
