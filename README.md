@@ -48,16 +48,16 @@ RNA samples were sent to Genome Quebec for RNA-seq.For each sample a NEB/KAPA mR
 Each folder will contain a README.md file (whenever appropriate) that describes the contents of that folder in more detail. 
 
 ### Folders:
-* 1. data: contains 3 folders: 
-** a. field_data (raw data collected from field such as seed counts, ramet and population level observations, also includes scans of MPB field books) 
-** b. old_intermediate_files (old merged data files that are now obsolete, not needed or have been updated)
-** c. output_data (contains any merged,cleaned or formatted data) this is data that is ready for analysis.
-* 2. field_work_2015: contains any documents CT shared with MPB during field work, field photos and misc information pertaining to conducting field surveys. 
-* 3. output: houses figures and merged data sets. This may change. 
-* 4. python_unix_scripts: custom scripts written by MPB, currently (oct 2017) used for automating seed counting of seed photos
-* 5. references: references for analytics or papers that may be difficult to find again
-* 6. scripts: houses the R scripts used for data cleanup, wrangling, analysis and plotting 
-* 7. Seed_counting: this is a compressed folder that contains the seed photos and scripts used to count seeds. MPB validated the seed counts from the photos in oct 2017. In 
+1. data: contains 3 folders: 
+* field_data (raw data collected from field such as seed counts, ramet and population level observations, also includes scans of MPB field books) 
+* old_intermediate_files (old merged data files that are now obsolete, not needed or have been updated)
+* output_data (contains any merged,cleaned or formatted data) this is data that is ready for analysis.
+2. field_work_2015: contains any documents CT shared with MPB during field work, field photos and misc information pertaining to conducting field surveys. 
+3. output: houses figures and merged data sets. This may change. 
+4. python_unix_scripts: custom scripts written by MPB, currently (oct 2017) used for automating seed counting of seed photos
+5. references: references for analytics or papers that may be difficult to find again
+6. scripts: houses the R scripts used for data cleanup, wrangling, analysis and plotting 
+7. Seed_counting: this is a compressed folder that contains the seed photos and scripts used to count seeds. MPB validated the seed counts from the photos in oct 2017. In 
 many instances seeds were hand counted or re-classified. 
  
 ### Data Description:
