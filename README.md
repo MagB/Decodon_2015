@@ -64,12 +64,16 @@ many instances seeds were hand counted or re-classified.
 In this project, there is information  populations surveyed by MPB and CT in 2015. 
 There is also two datasets pertaining to the greenhouse collection of D. verticillatus.
  
-There are 3 types of field data currently part of this project: 
+There are 4 field datasets currently part of this project: 
 1. Survey of D. verticillatus populations across Ontario and Quebec (one location). This includes morph frequency estimate.
 2. Population-level estimate of fertility (proportion of fruiting and flowering ramets)
-3. Ramet-level estimates of fertility (currently this is limited to number of flowers and fruits per ramet, of ramets that made at least one flower).  
+3. Ramet-level estimates of fertility: number of flowers and fruits per ramet (of ramets that made at least one flower).  
 4. Ramet-level estimate of fertility based on seed counts from field collected fruit (collected in October 2015 by MPB). Several undergrad volunteers helped count seeds.
 
+### How to use the data:
+
+The raw data described above in "Data Description" have been cleaned, verified and when appropriate merged into a single file (this is the case for the ramet-level estimates of fertility; seed data was joined to flowers and fruit data)
+For analysis, use the data files located in the  "data/output_data/" folder.
 
 ### Data Analysis Performed to Date:
 
