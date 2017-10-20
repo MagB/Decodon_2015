@@ -13,7 +13,7 @@ Book #2 contains information about proportion flowering, number of stems, propor
 
 # Data file description:
 
-# 1. Decodon_field_seed_counts_2015.csv
+## 1. Decodon_field_seed_counts_2015.csv
 Undergrad volunteers who helped count seeds: Vivienne Wu, Kathlein Wei Cheng, Rebecca Huang, Sierra Klueppel, Michael Ramnauth 
 
 In October 2015, MPB visited several populations. MPB collected fruits from each ramet that had any fruits or dried flowers that looked like they might have a seed. 
@@ -24,7 +24,7 @@ In a few instances, we could could seeds for a few fruits individually but had t
 variance in seed number among fruit within a ramet could be calculated whenever possible. 
 
 
-## Seeds were counted in one of two methods: 
+### Seeds were counted in one of two methods: 
 1. hand counting (this data is recorded directly in this dataset) 
 2. photography:seeds were photographed and processed using image analysis (a custom python script written by MPB). The hand written data is housed in the black binder in the section called “Seed Counts”. This binder is kept either in the lab beside Decodon field collected seeds (from 2015) or above MPB’s desk. 
 the estimate of seed counts for photographed seeds is reported in the "Seed_count_June8_night_2016_no_bad_photo3.txt “ file. This is housed:
@@ -38,7 +38,7 @@ In these cases we call those "late stage aborted". I wanted to keep track of fru
 It must be acknowledged however that "viability" here is a guess. A germination trial is needed to verify if seeds are indeed duds.
 
 
-## Column description:
+### Column description:
 *Page	: page of written observations in black binder
 *Photo_num :if more than one photo was taken for an item then the item is represented in two rows and Photo_num is P1 and P2 for each row	
 *Date: Date the envelope was processed
@@ -51,10 +51,10 @@ It must be acknowledged however that "viability" here is a guess. A germination 
 *Notes: most common note is what kind of aborted seeds were observed (early: look like dust but have shape of seeds, mid: very small ~1-2mm seed shaped late: these were formed seeds but were small dark black/brown and had “craters”
 *Notes2			
 
-2. Decodon_population_flowering_fruiting_2015
+## 2. Decodon_population_flowering_fruiting_2015
 In each population, MPB surveyed a “site”. A site is defined as the area from the canoe to the shoreline within the front and end of a 16ft research canoe. Each record represents a site surveyed in a population in Oct 2015 by MPB. Surveys were done at least 1 boat length apart and included all plants within the length of the canoe to the shoreline. 
 
-## Column description:
+### Column description:
 * Date: date of observations
 * Pop_ID: Main identifier for ON region (includes NO sites)
 * PopCode: original pop codes given in field (note that CT originally assigned some populations NO for northern ontario rather than ON, the three NO populations’ id was subsequently changed to be inline with the other ontario pop codes) 
@@ -68,12 +68,12 @@ In each population, MPB surveyed a “site”. A site is defined as the area fro
 * Stems_per_clump_max
 * Total_stems_in_area: When I couldn't define clumps then total stem estimate for site was recorded. For sites with defined clumps, total_stems are estimated as the minimum number of stems per clump* number of clumps.
 
-# 3. Decodon_population_survey_2015_by_MPB_CT.csv
+## 3. Decodon_population_survey_2015_by_MPB_CT.csv
 This contains basic pop data of all populations surveyed by MPB and CT. It also includes pops that were surveyed by Eckert in 2014 and had samples of those pops growing in the greenhouse in 2015/2016. Some of the Eckert collected plants also had leaf samples collected (CT collected and labelled these )
 Most pops in this set also were visited in 2015 for floral morphing and/or seed collections. 
 
 
-## Column description:
+### Column description:
 * Region_code: used original code EO, ON and NO	
 * Type: Monomorphic, Di- or Trimorphic
 * Pop_ID: this is pop code with RegionCode stripped
@@ -107,6 +107,7 @@ Information on every ramet from which seeds were collected is recorded in this d
 Secondary branches larger than 10cm were also noted. 
 When possible the number of ramets in the clump that the focal ramet was located was recorded (clump_size_)
 
+### Column description:
 * Envelope_ID: this is the random number assigned to the envelope so that seed counting could be done blind to population
 * PopName: pop identifier
 * Pop_ID: pop identifier
