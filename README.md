@@ -85,12 +85,6 @@ The two other datasetets : 1. Decodon_population_flowering_fruiting_2015.csv and
 ### Data Analysis Performed to Date:
 All figures and tables are housed in their own folder along with the script that generated them.
 
-### 1: Map of populations surveyed in 2014 & 2015, as well as a map of 24 samples used in RNAseq
-In the folder called "figures_w_scripts" you will find folders for each figure. Each folder will house the script that generated the figure along with the resulting figure.
-
-There are 36 populations in total that have been identified by members of the lab. This map, however, only includes the 27 unique sites where plants were sampled in 2015. Flowers, pollen, leaf tissue and live plants were collected from 22 sites (20 unique sites) in 2015. 
-Seeds were collected from all but one of these populations (Puslinch). Seeds were collected from an additional 7 sites for which live plants had been collected in 2014.
-
 ###  Current Tables:
 Table1. Summary table of morph frequencies for all populations for which data is available.
 located:
@@ -117,6 +111,9 @@ located:
 ###  Current Figures:
 
 Figure 1. Population map
+There are 36 populations in total that have been identified by members of the lab. This map, however, only includes the 27 unique sites where plants were sampled in 2015. Flowers, pollen, leaf tissue and live plants were collected from 22 sites (20 unique sites) in 2015. 
+Seeds were collected from all but one of these populations (Puslinch). Seeds were collected from an additional 7 sites for which live plants had been collected in 2014.
+
 There are two maps for Figure 1. The first is a map of all the surveyed populations. The second is a map of only the 24 populations that are included in the RNAseq study.
 located:
 /Decodon_2015/figures_w_scripts/Figure1_pop_map/Morph map_oct2017.eps
